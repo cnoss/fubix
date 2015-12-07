@@ -56,3 +56,7 @@ fields:
     type: date
     format: YYYY-MM-DD
     width: 1/2
+  tags:
+    label: Tags
+    type: tags
+    separator: # 

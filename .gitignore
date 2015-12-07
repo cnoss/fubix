@@ -1,5 +1,5 @@
-site/config/*
-site/cache/*
+site/config/
+site/cache/
 style.css
 
 .DS_Store
@@ -13,3 +13,4 @@ _archiv
 
 kirby/
 panel/
+gitlib/
