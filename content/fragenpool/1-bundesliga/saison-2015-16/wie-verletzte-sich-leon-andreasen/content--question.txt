@@ -1,0 +1,58 @@
+Info: 
+
+----
+
+Visible: 
+
+----
+
+Title: Wie verletzte sich Leon Andreasen?
+
+----
+
+Frage: Wie verletzte sich in der vergangenen Woche der Hannoveraner Leon Andreasen?
+
+----
+
+Invisible: 
+
+----
+
+Autor: 
+
+----
+
+Date: 
+
+----
+
+Antworten: 
+
+- 
+  antwort: Gehaltsabrechnung öffnen
+  r_answer: 'false'
+  wahr: 'false'
+- 
+  antwort: Paket öffnen
+  r_answer: 'true'
+  wahr: 'true'
+- 
+  antwort: Haustür öffnen
+  r_answer: 'false'
+  wahr: 'false'
+- 
+  antwort: Haustür öffnen
+  r_answer: 'false'
+  wahr: 'false'
+- 
+  antwort: Bier öffnen
+  r_answer: 'false'
+  wahr: 'false'
+
+----
+
+Erklaerung: 
+
+----
+
+Quelle: 

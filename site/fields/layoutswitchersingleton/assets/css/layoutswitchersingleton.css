@@ -1,0 +1,90 @@
+.row::before, .row::after {
+    content: " ";
+    display: table;
+    box-sizing: border-box;
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+.layoutswitcher .add-image {
+	margin: 20px 0;
+	background: #fff;
+	border: solid 2px #ddd;
+	padding: 20px;
+
+}
+
+
+.layoutswitcher .sublabel {
+	background-color: #ddd;
+	border: none;
+
+}
+
+.layoutswitcher #layoutdemo{
+	/*border: solid 2px #ddd;*/
+	margin-bottom: 10px;
+	margin-left: -10px;
+	position: relative;
+
+}
+
+.layoutswitcher .info{
+	color: #999;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.layoutswitcher #layoutdemo .text{
+	font-size: 9px;
+}
+
+.layoutswitcher #layoutdemo #textblock{
+	float: left;
+}
+
+.layoutswitcher #layoutdemo #bildblock .holder >img{
+	width: 100%;
+}
+
+.layoutswitcher #layoutdemo #bildblock td{
+	background-size: cover;
+}
+
+.layoutswitcher #layoutdemo #bildblock .noi-1{ width: 100%; }
+.layoutswitcher #layoutdemo #bildblock .noi-2{ width: 66.6%; }
+.layoutswitcher #layoutdemo #bildblock .noi-3{ width: 66.6%; }
+
+.layoutswitcher #layoutdemo #bildblock #td-2{ border-left: 10px solid #eee; border-bottom: 10px solid #eee; }
+.layoutswitcher #layoutdemo #bildblock #td-3{ border-left: 10px solid #eee; }
+
+
+.layoutswitcher #layoutdemo [class*=col]{
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.layoutswitcher #layoutdemo .col-md-12{ width: 100%; }
+.layoutswitcher #layoutdemo .col-md-8{ width: 66.6%; }
+.layoutswitcher #layoutdemo .col-md-6{ width: 50%; }
+.layoutswitcher #layoutdemo .col-md-4{ width: 33.3%; }
+.layoutswitcher #layoutdemo .pull-right{ float: right; }
+
+.clearfix{
+	clear: both;
+}
+
+[data-pos=text-oben]{
+	display: none;
+}
+
+@media screen and (max-width: 50em) {
+
+
+}
